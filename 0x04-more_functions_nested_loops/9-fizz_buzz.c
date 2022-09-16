@@ -14,7 +14,7 @@ while (num++ < 100)
 {
 if ((num % 3) == 0)
 {
-printf("Fizz ")
+printf("Fizz ");
 }
 else if ((num % 3 == 0) && (num % 5 == 0))
 {
