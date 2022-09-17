@@ -21,7 +21,7 @@ continue;
 for (icc = 3; icc < number / 2; icc += 2)
 {
 if (number % icc == 0)
-number /= icc
+number /= icc;
 }
 }
 printf("%ld\n", number);
