@@ -13,7 +13,7 @@ int tr1, tr2;
 if (size > 0)
 {
 for (tr1 = 1; tr1 <= size; tr1++)
-}
+{
 for ((tr2 = size - tr1); tr2 > 0; tr2--)
 {
 putchar(' ');
