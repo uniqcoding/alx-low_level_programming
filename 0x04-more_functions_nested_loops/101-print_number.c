@@ -34,7 +34,7 @@ cf++;
 
 while (r > 0)
 {
-ce = (char) ((r % 10) + '0');
+ce = (char)((r % 10) + '0');
 _putchar(ce);
 r = r / 10;
 cf--;
@@ -42,7 +42,7 @@ cf--;
 while (cf != 0)
 {
 _putchar('0');
-ct--;
+cf--;
 }
 _putchar(cd);
 }
