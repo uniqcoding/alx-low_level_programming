@@ -15,12 +15,12 @@ int cf = 0;
 if (n < 0)
 {
 _putchar ('-');
-cd = (char) ('0' - (n % 10));
+cd = (char)('0' - (n % 10));
 n = n / -10;
 }
 else
 {
-cd = (char) ((n % 10) + '0');
+cd = (char)((n % 10) + '0');
 n = n / 10;
 }
 
