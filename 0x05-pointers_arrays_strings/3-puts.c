@@ -3,9 +3,9 @@
 
 /**
 * _puts - prints string
-* *str: printed string
-*
-* Return: no error
+* @str: printed string
+* Description: prints string
+* Returns no error
 */
 
 void _puts(char *str)
