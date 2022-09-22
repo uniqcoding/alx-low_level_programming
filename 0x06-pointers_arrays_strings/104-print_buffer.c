@@ -35,7 +35,7 @@ if ((j < size) && ((j + 1) < size))
 	printf("%02x%02x: ", b[j], b[j + 1]);
 else
 {
-while (++j, <= i + 10)
+while (++j <= i + 10)
 	printf(" ");
 printf(" ");
 }
