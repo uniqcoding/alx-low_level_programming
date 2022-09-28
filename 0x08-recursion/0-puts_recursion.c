@@ -3,13 +3,13 @@
 /**
  * _puts_recursion - function to print string
  * @s: string to be printed
- * Return: returns string
+ * Return: returns 0
  */
 
 void _puts_recursion(char *s)
 {
-char s;
+char *s;
 
-printf("%c\n", s);
-return (s);
+printf("%c\n", *s);
+return (0);
 }
