@@ -5,7 +5,6 @@
  * @s: string to be printed
  * Return: void
  */
-
 void _print_rev_recursion(char *s)
 {
 if (*s != '\0')
