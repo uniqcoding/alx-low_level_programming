@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - program that prints two numbers
  * @argc: input argument
@@ -8,11 +9,12 @@
  */
 
 int main(int argc, char *argv[])
+
 {
 int num1, num2, prod;
 
 if (argc != 3)
-	printf("Error\n");
+printf("Error\n");
 else
 {
 num1 = atoi(argc[1]);
