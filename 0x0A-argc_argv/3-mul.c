@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 int num1, num2, prod;
 
-if (argc != 3)
+if (arg != 3)
 printf("Error\n");
 else
 {
