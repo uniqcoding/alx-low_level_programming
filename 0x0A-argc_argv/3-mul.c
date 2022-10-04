@@ -17,7 +17,7 @@ if (argc != 3)
 printf("Error\n");
 else
 {
-num1 = atoi(argc[1]);
+num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
 prod = num1 * num2;
 printf("%d\n", prod);
