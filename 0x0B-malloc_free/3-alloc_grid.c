@@ -18,7 +18,7 @@ if (width == 0 || height == 0)
 array = (int **) malloc(sizeof(int *) * height);
 if (array != NULL)
 {
-for (i; i < height; i++)
+for (i = 0; i < height; i++)
 {
 array[i] = (int *) malloc(sizeof(int) * width);
 if (array[i] != NULL)
