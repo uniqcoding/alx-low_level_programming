@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.H>
+#include <stdlib.h>
 
 /**
  * main - program to print minimum coins to make change
