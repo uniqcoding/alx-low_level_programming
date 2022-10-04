@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <stdlib.H>
+
+/**
+ * main - program to print minimum coins to make change
+ * for amount of money
+ * @argc: number of arguments
+ * @argv: array pf arguments
+ * Return: return 1 if there is error, 0 otherwise
+ */
+
+int main(int argc, char *argv[])
+{
+int cents, coins = 0;
+
+if (argc != 2)
+{
+printf("Error\n");
+return (1);
+}
+cents = atoi(argv[1]);
+while (cents > 0)
+{
+coins++;
+if ((cents - 25) >= 0)
+{
+cents -= 25;
+continue;
+}
+if ((cents - 10) >= 0)
+{
+cents -= 10;
+continue;
+}
+if ((cents - 2) >= 0)
+{
+cents -= 2;
+continue;
+}
+cents--;
+}
+printf("%d\n", coins);
+return (0);
+}
