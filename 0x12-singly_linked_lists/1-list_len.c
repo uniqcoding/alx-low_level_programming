@@ -12,7 +12,7 @@ const list_t *tmp;
 unsigned int i;
 
 tmp = h;
-for (i = 0; tmp; i++
-		tmp = tmp->next;
-		return (i);
+for (i = 0; tmp; i++)
+	tmp = tmp->next;
+return (i);
 }
