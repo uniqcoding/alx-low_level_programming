@@ -1,4 +1,4 @@
-#include "list.h"
+#include "lists.h"
 
 /**
  * add_node - adds node to beginning of a linked list
@@ -16,7 +16,7 @@ if (new_node != NULL)
 	{
 	new_node->str = strdup(str);
 	new_node->len = _strlen(str);
-	new_node->next = *head;
+	new_node->nex:t = *head;
 	}
 else
 	return (NULL);
