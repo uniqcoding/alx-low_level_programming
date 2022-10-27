@@ -16,7 +16,7 @@ if (new_node != NULL)
 	{
 	new_node->str = strdup(str);
 	new_node->len = _strlen(str);
-	new_node->nex:t = *head;
+	new_node->next = *head;
 	}
 else
 	return (NULL);
