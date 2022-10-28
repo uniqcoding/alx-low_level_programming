@@ -37,7 +37,7 @@ return (new_node);
  * @str: string to be counted
  * Return: length of string
  */
-int_strlen(const char *str)
+int _strlen(const char *str)
 {
 int i = 0;
 
