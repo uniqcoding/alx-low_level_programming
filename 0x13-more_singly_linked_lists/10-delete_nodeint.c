@@ -32,5 +32,5 @@ for (i = 0; i < index - 1; i++)
 next = current->next;
 current->next = next->next;
 free(next);
-return (-1);
+return (1);
 }
