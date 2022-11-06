@@ -29,7 +29,7 @@ int file, wrote;
 
 if (filename == NULL)
 	return (-1);
-file = open(filename, O_WRONGLY | O_CREAT | O_TRUNC, 0600);
+file = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
 if (file == -1)
 	return (-1);
 if (text_content != NULL)
