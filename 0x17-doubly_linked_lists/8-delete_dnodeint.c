@@ -31,7 +31,7 @@ if (*head != NULL)
 }
 else
 {
-tmp->next = tmp->next;
+tmp->prev->next = tmp->next;
 if (tmp->next != NULL)
 	tmp->next->prev = tmp->prev;
 }
